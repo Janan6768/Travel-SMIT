@@ -1,0 +1,50 @@
+
+.btn-col {
+    color: white;
+}.bg-img-about {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgb(0,0,0,0.5)),
+    url("../Images/about-bg.jpg");
+    height: 95vh;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+span {
+    color: #FFA500;
+}
+hr {
+    margin: 0 1rem 1rem;
+    border: 1px solid #FFA500;
+}
+.about-section {
+    display: flex;
+    flex-flow: column;
+}
+.section-heading {
+    margin: 1rem 0;
+    text-align: center;
+}
+.about-hero {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.8rem;
+}
+.about-content {
+    margin: 0 1rem;
+    word-spacing: 4px;
+}
+@media (max-width:660px) {
+    .about-hero {
+        display: flex;
+        flex-flow: column wrap;
+        text-align: center;
+    }
+    .about-content {
+        margin: 1rem;
+        word-spacing: 4px;
+    }
+}
+
+    

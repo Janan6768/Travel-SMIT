@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/headerFooter.css">
+    <link rel="stylesheet" href="Styles/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>About | Page</title>
+</head>
+<body>
+    <div class="bg-img">
+        <header class="header">
+            <div class="container">
+                <h2 class="logo">SnapTrips</h2>
+            <!-- Responsive -->
+             
+                <label for="checked">
+                    <i class="fa-solid fa-bars fa-xl"></i>
+                </label>
+                <input type="checkbox" id="checked"/>
+                    <nav class="nav-menu">
+                        <ul>
+                            <li class="nav-menu-link"><a href="/index.html">Home</a></li>
+                            <li class="nav-menu-link"><a href="/Trip">Trip</a></li>
+                            <li class="nav-menu-link"><a href="/about.html">About</a></li>
+                            <li class="nav-menu-link"><a href="/contact.html">Contact</a></li>
+                        </ul> 
+                    </nav>
+                <!-- Responsive -->  
+                <nav class="nav-item">
+                    <ul>
+                        <li class="nav-link"><a href="/index.html">Home</a></li>
+                        <li class="nav-link"><a href="/Trip">Trips</a></li>
+                        <li class="nav-link"><a href="/about.html">About</a></li>
+                        <li class="nav-link"><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="button">
+                    <a href="">
+                        <button class="btn btn-primarey">Login</button>
+                    </a>
+                    <a href="">
+                        <button class="btn btn-secondray">Register</button>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="hero-section">
+            <div class="hero-text">
+                <h1>About</h1>
+                <p>SnapTrip is an International one-stop travel service provider, Available
+                    in 24 languages across 39 countries and regions in 35 local currencies.
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="social-footer">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="footer-txt">
+            © 2025 SnapTrips. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
