@@ -19,7 +19,8 @@ a {
 }
 .header {
     position: sticky;
-    top: 0;      
+    top: 0;
+    z-index: 1000;
 }
 .logo {
     /* border: 1px solid red; */
@@ -142,6 +143,8 @@ i.fa-bars {
         margin-top: 1.5rem;
         float: right;
         cursor: pointer;
+        position: relative;
+        z-index: 1001;
     }
     .nav-menu {
         display: none;
@@ -149,8 +152,15 @@ i.fa-bars {
         background: black;
         width: 100%;
         clear: both;
-        padding: 0.5rem;
         border-radius: 10px;
+        /*  */
+        position: fixed;
+        top: 60px;
+        left: 0;
+        z-index: 1000;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 1rem;
+        backdrop-filter: blur(5px);
     }
     .nav-menu-link {
         text-align: center;
